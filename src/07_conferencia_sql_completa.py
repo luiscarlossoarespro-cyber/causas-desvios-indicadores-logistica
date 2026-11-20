@@ -1,0 +1,27 @@
+import duckdb, json, pandas as pd
+R=json.load(open('resultados/an6_respostas.json'))
+con=duckdb.connect()
+con.execute("""create view b as select * from read_csv('raw/dataco_utf8.csv',header=true,ignore_errors=true,sample_size=-1)""")
+con.execute("""create view p as select "Order Id" id, any_value("Shipping Mode") modo, any_value("Days for shipment (scheduled)") prev, any_value("Days for shipping (real)") real,
+ any_value("Delivery Status") st, any_value("Order Status") os, any_value("Customer Id") cli, sum("Sales") venda, sum("Benefit per order") lucro from b group by 1""")
+con.execute("create view v as select * from p where os not in ('CANCELED','SUSPECTED_FRAUD')")
+r=lambda q:con.execute(q).fetchall()[0][0]
+chk=[]
+def ok(nome,a,b,tol=1e-6): chk.append((nome,float(a),float(b),abs(float(a)-float(b))<=tol))
+n=r("select count(*) from v")
+ok('pedidos válidos',n,62897)
+ok('atraso 1 dia (% dos atrasados)',r("select avg((real-prev=1)::int) from v where real>prev"),R['gravidade_1dia_pct'])
+ok('atraso até 2 dias',r("select avg((real-prev<=2)::int) from v where real>prev"),R['gravidade_ate2_pct'])
+ok('atrasos >=2 dias (qtd)',r("select count(*) from v where real-prev>=2"),14918)
+ok('sem First Class atraso',r("select avg((real>prev)::int) from v where modo<>'First Class'"),0.4962,5e-5)
+ok('sem Same Day atraso',r("select avg((real>prev)::int) from v where modo<>'Same Day'"),0.5782,5e-5)
+ok('cenário A (FC 2 dias)',r("select avg((real>case when modo='First Class' then 2 else prev end)::int) from v"),R['cenarios'][1]['pct_atraso'],5e-5)
+ok('cenário C',r("select avg((real>case modo when 'First Class' then 2 when 'Same Day' then 1 when 'Second Class' then 4 else prev end)::int) from v"),R['cenarios'][3]['pct_atraso'],5e-5)
+ok('cenário E (zero atraso)',r("select avg((real>case modo when 'First Class' then 2 when 'Same Day' then 1 else 6 end)::int) from v"),0)
+ok('lucro médio atrasado (pedido)',r("select avg(lucro) from v where real>prev"),59.3667,5e-4)
+ok('lucro médio no prazo (pedido)',r("select avg(lucro) from v where real<=prev"),62.0645,5e-4)
+ok('venda em atrasados',r("select sum(venda) from v where real>prev"),R['venda_atrasados'],0.01)
+ok('venda total',r("select sum(venda) from v"),R['venda_total'],0.01)
+ok('clientes com 3+ pedidos válidos',r("select count(*) from (select cli from v group by cli having count(*)>=3)"),R['reincid']['clientes_3mais'])
+out=pd.DataFrame(chk,columns=['conferencia','sql','python','ok']);out.to_csv('resultados/07_conferencia_sql_completa.csv',index=False)
+print(out.to_string());print(len(out),'conferências;',int((~out.ok).sum()),'divergências')
