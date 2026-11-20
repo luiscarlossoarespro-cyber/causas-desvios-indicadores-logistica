@@ -1,0 +1,242 @@
+ano,mes,conferencia,dashboard,sql,ok
+Todos,Todos,pedidos válidos,62897.0,62897.0,True
+Todos,Todos,pedidos atrasados,36048.0,36048.0,True
+Todos,Todos,vendas,35214429.65347706,35214429.653482325,True
+Todos,Todos,vendas em atrasados,20126395.265239008,20126395.26524008,True
+Todos,Todos,atraso grupo 1,21130.0,21130.0,True
+Todos,Todos,atraso grupo 2,10010.0,10010.0,True
+Todos,Todos,atraso grupo 3,2452.0,2452.0,True
+Todos,Todos,atraso grupo 4,2456.0,2456.0,True
+Todos,Todos,First Class: pedidos,9602.0,9602.0,True
+Todos,Todos,First Class: atrasados,9602.0,9602.0,True
+Todos,Todos,First Class: mediana real,2.0,2.0,True
+Todos,Todos,First Class: P90 real,2.0,2.0,True
+Todos,Todos,Same Day: pedidos,3407.0,3407.0,True
+Todos,Todos,Same Day: atrasados,1648.0,1648.0,True
+Todos,Todos,Same Day: mediana real,0.0,0.0,True
+Todos,Todos,Same Day: P90 real,1.0,1.0,True
+Todos,Todos,Second Class: pedidos,12256.0,12256.0,True
+Todos,Todos,Second Class: atrasados,9803.0,9803.0,True
+Todos,Todos,Second Class: mediana real,4.0,4.0,True
+Todos,Todos,Second Class: P90 real,6.0,6.0,True
+Todos,Todos,Standard Class: pedidos,37632.0,37632.0,True
+Todos,Todos,Standard Class: atrasados,14995.0,14995.0,True
+Todos,Todos,Standard Class: mediana real,4.0,4.0,True
+Todos,Todos,Standard Class: P90 real,6.0,6.0,True
+2015,Todos,pedidos válidos,19995.0,19995.0,True
+2015,Todos,pedidos atrasados,11431.0,11431.0,True
+2015,Todos,vendas,11817767.51093801,11817767.510941459,True
+2015,Todos,vendas em atrasados,6780724.332440001,6780724.332443432,True
+2015,Todos,atraso grupo 1,6682.0,6682.0,True
+2015,Todos,atraso grupo 2,3176.0,3176.0,True
+2015,Todos,atraso grupo 3,781.0,781.0,True
+2015,Todos,atraso grupo 4,792.0,792.0,True
+2015,Todos,First Class: pedidos,3045.0,3045.0,True
+2015,Todos,First Class: atrasados,3045.0,3045.0,True
+2015,Todos,First Class: mediana real,2.0,2.0,True
+2015,Todos,First Class: P90 real,2.0,2.0,True
+2015,Todos,Same Day: pedidos,1066.0,1066.0,True
+2015,Todos,Same Day: atrasados,501.0,501.0,True
+2015,Todos,Same Day: mediana real,0.0,0.0,True
+2015,Todos,Same Day: P90 real,1.0,1.0,True
+2015,Todos,Second Class: pedidos,3898.0,3898.0,True
+2015,Todos,Second Class: atrasados,3121.0,3121.0,True
+2015,Todos,Second Class: mediana real,4.0,4.0,True
+2015,Todos,Second Class: P90 real,6.0,6.0,True
+2015,Todos,Standard Class: pedidos,11986.0,11986.0,True
+2015,Todos,Standard Class: atrasados,4764.0,4764.0,True
+2015,Todos,Standard Class: mediana real,4.0,4.0,True
+2015,Todos,Standard Class: P90 real,6.0,6.0,True
+2016,Todos,pedidos válidos,19955.0,19955.0,True
+2016,Todos,pedidos atrasados,11497.0,11497.0,True
+2016,Todos,vendas,11794451.954109998,11794451.954109106,True
+2016,Todos,vendas em atrasados,6748640.104129998,6748640.104127868,True
+2016,Todos,atraso grupo 1,6738.0,6738.0,True
+2016,Todos,atraso grupo 2,3214.0,3214.0,True
+2016,Todos,atraso grupo 3,781.0,781.0,True
+2016,Todos,atraso grupo 4,764.0,764.0,True
+2016,Todos,First Class: pedidos,3090.0,3090.0,True
+2016,Todos,First Class: atrasados,3090.0,3090.0,True
+2016,Todos,First Class: mediana real,2.0,2.0,True
+2016,Todos,First Class: P90 real,2.0,2.0,True
+2016,Todos,Same Day: pedidos,1086.0,1086.0,True
+2016,Todos,Same Day: atrasados,491.0,491.0,True
+2016,Todos,Same Day: mediana real,0.0,0.0,True
+2016,Todos,Same Day: P90 real,1.0,1.0,True
+2016,Todos,Second Class: pedidos,3888.0,3888.0,True
+2016,Todos,Second Class: atrasados,3116.0,3116.0,True
+2016,Todos,Second Class: mediana real,4.0,4.0,True
+2016,Todos,Second Class: P90 real,6.0,6.0,True
+2016,Todos,Standard Class: pedidos,11891.0,11891.0,True
+2016,Todos,Standard Class: atrasados,4800.0,4800.0,True
+2016,Todos,Standard Class: mediana real,4.0,4.0,True
+2016,Todos,Standard Class: P90 real,6.0,6.0,True
+2017,Todos,pedidos válidos,20910.0,20910.0,True
+2017,Todos,pedidos atrasados,11925.0,11925.0,True
+2017,Todos,vendas,11285497.463444995,11285497.463441852,True
+2017,Todos,vendas em atrasados,6406226.375649999,6406226.3756475225,True
+2017,Todos,atraso grupo 1,7024.0,7024.0,True
+2017,Todos,atraso grupo 2,3279.0,3279.0,True
+2017,Todos,atraso grupo 3,801.0,801.0,True
+2017,Todos,atraso grupo 4,821.0,821.0,True
+2017,Todos,First Class: pedidos,3146.0,3146.0,True
+2017,Todos,First Class: atrasados,3146.0,3146.0,True
+2017,Todos,First Class: mediana real,2.0,2.0,True
+2017,Todos,First Class: P90 real,2.0,2.0,True
+2017,Todos,Same Day: pedidos,1143.0,1143.0,True
+2017,Todos,Same Day: atrasados,606.0,606.0,True
+2017,Todos,Same Day: mediana real,1.0,1.0,True
+2017,Todos,Same Day: P90 real,1.0,1.0,True
+2017,Todos,Second Class: pedidos,4045.0,4045.0,True
+2017,Todos,Second Class: atrasados,3223.0,3223.0,True
+2017,Todos,Second Class: mediana real,4.0,4.0,True
+2017,Todos,Second Class: P90 real,6.0,6.0,True
+2017,Todos,Standard Class: pedidos,12576.0,12576.0,True
+2017,Todos,Standard Class: atrasados,4950.0,4950.0,True
+2017,Todos,Standard Class: mediana real,4.0,4.0,True
+2017,Todos,Standard Class: P90 real,6.0,6.0,True
+2018,Todos,pedidos válidos,2037.0,2037.0,True
+2018,Todos,pedidos atrasados,1195.0,1195.0,True
+2018,Todos,vendas,316712.72498400003,316712.7249853301,True
+2018,Todos,vendas em atrasados,190804.453019,190804.45301980054,True
+2018,Todos,atraso grupo 1,686.0,686.0,True
+2018,Todos,atraso grupo 2,341.0,341.0,True
+2018,Todos,atraso grupo 3,89.0,89.0,True
+2018,Todos,atraso grupo 4,79.0,79.0,True
+2018,Todos,First Class: pedidos,321.0,321.0,True
+2018,Todos,First Class: atrasados,321.0,321.0,True
+2018,Todos,First Class: mediana real,2.0,2.0,True
+2018,Todos,First Class: P90 real,2.0,2.0,True
+2018,Todos,Same Day: pedidos,112.0,112.0,True
+2018,Todos,Same Day: atrasados,50.0,50.0,True
+2018,Todos,Same Day: mediana real,0.0,0.0,True
+2018,Todos,Same Day: P90 real,1.0,1.0,True
+2018,Todos,Second Class: pedidos,425.0,425.0,True
+2018,Todos,Second Class: atrasados,343.0,343.0,True
+2018,Todos,Second Class: mediana real,4.0,4.0,True
+2018,Todos,Second Class: P90 real,6.0,6.0,True
+2018,Todos,Standard Class: pedidos,1179.0,1179.0,True
+2018,Todos,Standard Class: atrasados,481.0,481.0,True
+2018,Todos,Standard Class: mediana real,4.0,4.0,True
+2018,Todos,Standard Class: P90 real,6.0,6.0,True
+Todos,3,pedidos válidos,5112.0,5112.0,True
+Todos,3,pedidos atrasados,2949.0,2949.0,True
+Todos,3,vendas,3003572.7600789997,3003572.7600782025,True
+Todos,3,vendas em atrasados,1714344.9538269998,1714344.9538255783,True
+Todos,3,atraso grupo 1,1760.0,1760.0,True
+Todos,3,atraso grupo 2,784.0,784.0,True
+Todos,3,atraso grupo 3,207.0,207.0,True
+Todos,3,atraso grupo 4,198.0,198.0,True
+Todos,3,First Class: pedidos,841.0,841.0,True
+Todos,3,First Class: atrasados,841.0,841.0,True
+Todos,3,First Class: mediana real,2.0,2.0,True
+Todos,3,First Class: P90 real,2.0,2.0,True
+Todos,3,Same Day: pedidos,285.0,285.0,True
+Todos,3,Same Day: atrasados,147.0,147.0,True
+Todos,3,Same Day: mediana real,1.0,1.0,True
+Todos,3,Same Day: P90 real,1.0,1.0,True
+Todos,3,Second Class: pedidos,973.0,973.0,True
+Todos,3,Second Class: atrasados,781.0,781.0,True
+Todos,3,Second Class: mediana real,4.0,4.0,True
+Todos,3,Second Class: P90 real,6.0,6.0,True
+Todos,3,Standard Class: pedidos,3013.0,3013.0,True
+Todos,3,Standard Class: atrasados,1180.0,1180.0,True
+Todos,3,Standard Class: mediana real,4.0,4.0,True
+Todos,3,Standard Class: P90 real,6.0,6.0,True
+2016,3,pedidos válidos,1700.0,1700.0,True
+2016,3,pedidos atrasados,987.0,987.0,True
+2016,3,vendas,987920.3500900001,987920.3500883308,True
+2016,3,vendas em atrasados,564863.211414,564863.2114131611,True
+2016,3,atraso grupo 1,575.0,575.0,True
+2016,3,atraso grupo 2,274.0,274.0,True
+2016,3,atraso grupo 3,81.0,81.0,True
+2016,3,atraso grupo 4,57.0,57.0,True
+2016,3,First Class: pedidos,278.0,278.0,True
+2016,3,First Class: atrasados,278.0,278.0,True
+2016,3,First Class: mediana real,2.0,2.0,True
+2016,3,First Class: P90 real,2.0,2.0,True
+2016,3,Same Day: pedidos,89.0,89.0,True
+2016,3,Same Day: atrasados,46.0,46.0,True
+2016,3,Same Day: mediana real,1.0,1.0,True
+2016,3,Same Day: P90 real,1.0,1.0,True
+2016,3,Second Class: pedidos,323.0,323.0,True
+2016,3,Second Class: atrasados,262.0,262.0,True
+2016,3,Second Class: mediana real,4.0,4.0,True
+2016,3,Second Class: P90 real,6.0,6.0,True
+2016,3,Standard Class: pedidos,1010.0,1010.0,True
+2016,3,Standard Class: atrasados,401.0,401.0,True
+2016,3,Standard Class: mediana real,4.0,4.0,True
+2016,3,Standard Class: P90 real,6.0,6.0,True
+2017,11,pedidos válidos,1956.0,1956.0,True
+2017,11,pedidos atrasados,1132.0,1132.0,True
+2017,11,vendas,598789.1530080001,598789.1530071105,True
+2017,11,vendas em atrasados,345953.047398,345953.04739793873,True
+2017,11,atraso grupo 1,670.0,670.0,True
+2017,11,atraso grupo 2,304.0,304.0,True
+2017,11,atraso grupo 3,76.0,76.0,True
+2017,11,atraso grupo 4,82.0,82.0,True
+2017,11,First Class: pedidos,294.0,294.0,True
+2017,11,First Class: atrasados,294.0,294.0,True
+2017,11,First Class: mediana real,2.0,2.0,True
+2017,11,First Class: P90 real,2.0,2.0,True
+2017,11,Same Day: pedidos,98.0,98.0,True
+2017,11,Same Day: atrasados,53.0,53.0,True
+2017,11,Same Day: mediana real,1.0,1.0,True
+2017,11,Same Day: P90 real,1.0,1.0,True
+2017,11,Second Class: pedidos,391.0,391.0,True
+2017,11,Second Class: atrasados,315.0,315.0,True
+2017,11,Second Class: mediana real,4.0,4.0,True
+2017,11,Second Class: P90 real,6.0,6.0,True
+2017,11,Standard Class: pedidos,1173.0,1173.0,True
+2017,11,Standard Class: atrasados,470.0,470.0,True
+2017,11,Standard Class: mediana real,4.0,4.0,True
+2017,11,Standard Class: P90 real,6.0,6.0,True
+2015,1,pedidos válidos,1713.0,1713.0,True
+2015,1,pedidos atrasados,963.0,963.0,True
+2015,1,vendas,1008854.4294279999,1008854.429428161,True
+2015,1,vendas em atrasados,570920.860691,570920.8606913432,True
+2015,1,atraso grupo 1,549.0,549.0,True
+2015,1,atraso grupo 2,281.0,281.0,True
+2015,1,atraso grupo 3,66.0,66.0,True
+2015,1,atraso grupo 4,67.0,67.0,True
+2015,1,First Class: pedidos,227.0,227.0,True
+2015,1,First Class: atrasados,227.0,227.0,True
+2015,1,First Class: mediana real,2.0,2.0,True
+2015,1,First Class: P90 real,2.0,2.0,True
+2015,1,Same Day: pedidos,82.0,82.0,True
+2015,1,Same Day: atrasados,37.0,37.0,True
+2015,1,Same Day: mediana real,0.0,0.0,True
+2015,1,Same Day: P90 real,1.0,1.0,True
+2015,1,Second Class: pedidos,344.0,344.0,True
+2015,1,Second Class: atrasados,272.0,272.0,True
+2015,1,Second Class: mediana real,4.0,4.0,True
+2015,1,Second Class: P90 real,6.0,6.0,True
+2015,1,Standard Class: pedidos,1060.0,1060.0,True
+2015,1,Standard Class: atrasados,427.0,427.0,True
+2015,1,Standard Class: mediana real,4.0,4.0,True
+2015,1,Standard Class: P90 real,6.0,6.0,True
+2018,1,pedidos válidos,2037.0,2037.0,True
+2018,1,pedidos atrasados,1195.0,1195.0,True
+2018,1,vendas,316712.72498400003,316712.7249853301,True
+2018,1,vendas em atrasados,190804.453019,190804.45301980054,True
+2018,1,atraso grupo 1,686.0,686.0,True
+2018,1,atraso grupo 2,341.0,341.0,True
+2018,1,atraso grupo 3,89.0,89.0,True
+2018,1,atraso grupo 4,79.0,79.0,True
+2018,1,First Class: pedidos,321.0,321.0,True
+2018,1,First Class: atrasados,321.0,321.0,True
+2018,1,First Class: mediana real,2.0,2.0,True
+2018,1,First Class: P90 real,2.0,2.0,True
+2018,1,Same Day: pedidos,112.0,112.0,True
+2018,1,Same Day: atrasados,50.0,50.0,True
+2018,1,Same Day: mediana real,0.0,0.0,True
+2018,1,Same Day: P90 real,1.0,1.0,True
+2018,1,Second Class: pedidos,425.0,425.0,True
+2018,1,Second Class: atrasados,343.0,343.0,True
+2018,1,Second Class: mediana real,4.0,4.0,True
+2018,1,Second Class: P90 real,6.0,6.0,True
+2018,1,Standard Class: pedidos,1179.0,1179.0,True
+2018,1,Standard Class: atrasados,481.0,481.0,True
+2018,1,Standard Class: mediana real,4.0,4.0,True
+2018,1,Standard Class: P90 real,6.0,6.0,True
+2016,Todos,pedidos nos 41 países,16634.0,16634.0,True

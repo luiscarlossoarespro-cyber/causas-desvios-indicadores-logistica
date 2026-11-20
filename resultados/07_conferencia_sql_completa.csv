@@ -1,0 +1,15 @@
+conferencia,sql,python,ok
+pedidos válidos,62897.0,62897.0,True
+atraso 1 dia (% dos atrasados),0.5861628939192188,0.5861628939192188,True
+atraso até 2 dias,0.8638482023968043,0.8638482023968043,True
+atrasos >=2 dias (qtd),14918.0,14918.0,True
+sem First Class atraso,0.4962191575194671,0.4962,True
+sem Same Day atraso,0.5782484451168264,0.5782,True
+cenário A (FC 2 dias),0.4204652050177274,0.4205,True
+cenário C,0.3164379859134776,0.3164,True
+cenário E (zero atraso),0.0,0.0,True
+lucro médio atrasado (pedido),59.36672441457937,59.3667,True
+lucro médio no prazo (pedido),62.06446989356599,62.0645,True
+venda em atrasados,20126395.265238553,20126395.26523882,True
+venda total,35214429.6534781,35214429.653478295,True
+clientes com 3+ pedidos válidos,10138.0,10138.0,True

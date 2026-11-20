@@ -1,0 +1,78 @@
+{
+ "gravidade": {
+  "1 dia": 0.5862,
+  "2 dias": 0.2777,
+  "3 dias": 0.068,
+  "4 dias ou mais": 0.0681
+ },
+ "gravidade_1dia_pct": 0.5861628939192188,
+ "gravidade_ate2_pct": 0.8638482023968043,
+ "paises_testados": 41,
+ "paises_sinalizados_fdr5": 0,
+ "paises_max_desvio_pp": 5.41066377102053,
+ "categorias_testados": 29,
+ "categorias_sinalizados_fdr5": 0,
+ "categorias_max_desvio_pp": 3.0818194736556337,
+ "regioes_testados": 21,
+ "regioes_sinalizados_fdr5": 0,
+ "regioes_max_desvio_pp": 2.37806389739067,
+ "reincid": {
+  "clientes_3mais": 10138,
+  "var_observada": 0.05387289146928017,
+  "var_simulada_media": 0.05411310427697298,
+  "var_simulada_p95": 0.0552865620816269,
+  "p_sim": 0.67,
+  "clientes_sempre_atrasados_pct": 0.08502663247188795,
+  "esperado_sempre_atrasados_pct": 0.08651938109998478
+ },
+ "mw_lucro_p": 0.3418507493055093,
+ "mw_venda_p": 0.4015910834755585,
+ "venda_atrasados": 20126395.26523882,
+ "venda_total": 35214429.653478295,
+ "cancel_chi_p": 0.09295648013444302,
+ "cenarios": [
+  {
+   "cenario": "Hoje",
+   "prazos": "{'First Class': 1, 'Same Day': 0, 'Second Class': 2, 'Standard Class': 4}",
+   "pct_atraso": 0.5731,
+   "reducao_pp": 0.0,
+   "prazo_medio_prometido": 2.9356
+  },
+  {
+   "cenario": "A) First Class: 1 -> 2 dias",
+   "prazos": "{'First Class': 2, 'Same Day': 0, 'Second Class': 2, 'Standard Class': 4}",
+   "pct_atraso": 0.4205,
+   "reducao_pp": 15.2662,
+   "prazo_medio_prometido": 3.0883
+  },
+  {
+   "cenario": "B) A + Same Day: 0 -> 1 dia",
+   "prazos": "{'First Class': 2, 'Same Day': 1, 'Second Class': 2, 'Standard Class': 4}",
+   "pct_atraso": 0.3943,
+   "reducao_pp": 17.8864,
+   "prazo_medio_prometido": 3.1425
+  },
+  {
+   "cenario": "C) B + Second Class: 2 -> 4 dias",
+   "prazos": "{'First Class': 2, 'Same Day': 1, 'Second Class': 4, 'Standard Class': 4}",
+   "pct_atraso": 0.3164,
+   "reducao_pp": 25.669,
+   "prazo_medio_prometido": 3.5322
+  },
+  {
+   "cenario": "D) C + Standard: 4 -> 5 dias",
+   "prazos": "{'First Class': 2, 'Same Day': 1, 'Second Class': 4, 'Standard Class': 5}",
+   "pct_atraso": 0.1979,
+   "reducao_pp": 37.5264,
+   "prazo_medio_prometido": 4.1305
+  },
+  {
+   "cenario": "E) Prazo = maximo real de cada modo",
+   "prazos": "{'First Class': 2, 'Same Day': 1, 'Second Class': 6, 'Standard Class': 6}",
+   "pct_atraso": 0.0,
+   "reducao_pp": 57.3127,
+   "prazo_medio_prometido": 5.1185
+  }
+ ],
+ "atual_pct": 0.5731274941571141
+}

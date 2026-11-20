@@ -1,0 +1,142 @@
+{
+ "q1": {
+  "pedidos": 62897,
+  "atrasados": 36048,
+  "pct": 0.5731274941571141,
+  "ic_lo": 0.5692575531752906,
+  "ic_hi": 0.576988502775732,
+  "dias_excesso_medio": 1.61812028406569,
+  "dias_excesso_mediana": 1.0,
+  "dias_excesso_p90": 3.0,
+  "real_medio": 3.5015183554064584,
+  "real_mediana": 3.0,
+  "real_p90": 6.0,
+  "prev_medio": 2.9356249105680714
+ },
+ "q2": [
+  {
+   "modo": "First Class",
+   "pedidos": 9602,
+   "pct_pedidos": 0.1527,
+   "prazo_prometido": 1,
+   "real_mediana": 2.0,
+   "real_p90": 2.0,
+   "atrasados": 9602,
+   "pct_atraso": 1.0,
+   "ic_lo": 0.9996,
+   "ic_hi": 1.0,
+   "excesso_medio": 1.0,
+   "participacao_nos_atrasos": 0.2664
+  },
+  {
+   "modo": "Same Day",
+   "pedidos": 3407,
+   "pct_pedidos": 0.0542,
+   "prazo_prometido": 0,
+   "real_mediana": 0.0,
+   "real_p90": 1.0,
+   "atrasados": 1648,
+   "pct_atraso": 0.4837,
+   "ic_lo": 0.467,
+   "ic_hi": 0.5005,
+   "excesso_medio": 1.0,
+   "participacao_nos_atrasos": 0.0457
+  },
+  {
+   "modo": "Second Class",
+   "pedidos": 12256,
+   "pct_pedidos": 0.1949,
+   "prazo_prometido": 2,
+   "real_mediana": 4.0,
+   "real_p90": 6.0,
+   "atrasados": 9803,
+   "pct_atraso": 0.7999,
+   "ic_lo": 0.7927,
+   "ic_hi": 0.8068,
+   "excesso_medio": 2.5041,
+   "participacao_nos_atrasos": 0.2719
+  },
+  {
+   "modo": "Standard Class",
+   "pedidos": 37632,
+   "pct_pedidos": 0.5983,
+   "prazo_prometido": 4,
+   "real_mediana": 4.0,
+   "real_p90": 6.0,
+   "atrasados": 14995,
+   "pct_atraso": 0.3985,
+   "ic_lo": 0.3935,
+   "ic_hi": 0.4034,
+   "excesso_medio": 1.5026,
+   "participacao_nos_atrasos": 0.416
+  }
+ ],
+ "q3": {
+  "meses": 33,
+  "pct_min": 0.5504201680672269,
+  "pct_max": 0.5986394557823129,
+  "media": 0.5726473912567908,
+  "meses_fora_controle": 0,
+  "dow_min": 0.5681614922703463,
+  "dow_max": 0.5780786589297228
+ },
+ "q4_max_cramer": 0.058113715293461626,
+ "q4_min_p": 0.09049353858447252,
+ "q4_auc_modo": 0.7412879319890595,
+ "q4_auc_completo": 0.7440202939052034,
+ "q5_alvo10": [
+  [
+   "First Class",
+   2,
+   0.0,
+   1
+  ],
+  [
+   "Same Day",
+   1,
+   0.0,
+   0
+  ],
+  [
+   "Second Class",
+   6,
+   0.0,
+   2
+  ],
+  [
+   "Standard Class",
+   6,
+   0.0,
+   4
+  ]
+ ],
+ "q5_pct_novo": 0.0,
+ "q5_so_first": 0.4204652050177274,
+ "q6": {
+  "venda_total": 35214429.6534783,
+  "venda_em_atrasados": 20126395.26523882,
+  "pct": 0.5715383001596006,
+  "lucro_medio_atrasado": 21.621706878333054,
+  "lucro_medio_prazo": 22.583197161765597,
+  "mw_p": 0.15537325736680405,
+  "lucro_neg_atr": 0.18744758883376947,
+  "lucro_neg_prazo": 0.18623624437577926
+ },
+ "q7": {
+  "pedidos": 2855,
+  "por_status": {
+   "SUSPECTED_FRAUD": 1488,
+   "CANCELED": 1367
+  }
+ },
+ "q8": {
+  "paises": 157,
+  "paises_para_80": 26,
+  "pct_atraso_pais_min": 0.5196850393700787,
+  "pct_atraso_pais_max": 0.609271523178808,
+  "paises_300+": 41,
+  "cat_min": 0.5510726234993112,
+  "cat_max": 0.6120996441281139,
+  "categorias_500+": 18
+ }
+}

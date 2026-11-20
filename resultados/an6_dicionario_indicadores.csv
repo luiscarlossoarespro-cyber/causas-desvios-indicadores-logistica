@@ -1,0 +1,7 @@
+indicador,formula,como_usar,dono,frequencia
+Taxa de entrega no prazo (OTD),Pedidos com dias reais <= prazo prometido / pedidos válidos,"Por modo de envio, não só o geral",Logística,Semanal
+Taxa de atraso,1 - OTD,Meta definida por modo (prazo que entrega com até 10% de atraso),Logística,Semanal
+Dias de excesso (P90),"P90 de (dias reais - prazo prometido), só nos atrasados","Acompanhar a gravidade, não só a frequência",Logística,Semanal
+Aderência da promessa,"Prazo prometido / P90 dos dias reais, por modo","Valor 1,0 ou mais indica promessa realista",Comercial + Logística,Mensal
+Pedidos cancelados / suspeita de fraude,Cancelados / pedidos totais,Separar do indicador de prazo,Risco,Mensal
+Lucro médio por pedido: atrasado x no prazo,Média do lucro por grupo,Verificar se o atraso custa margem,Financeiro,Mensal

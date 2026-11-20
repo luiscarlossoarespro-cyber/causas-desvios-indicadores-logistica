@@ -1,0 +1,24 @@
+﻿numero,calculado_em_SQL_no_arquivo_original,calculado_em_Python_na_base_tratada,bate
+pedidos válidos,62897.0,62897.0,sim
+pedidos atrasados,36048.0,36048.0,sim
+% atraso,0.573127,0.573127,sim
+pedidos totais,65752.0,65752.0,sim
+itens,180519.0,180519.0,sim
+cancelados,2855.0,2855.0,sim
+pedidos First Class,9602.0,9602.0,sim
+atrasados First Class,9602.0,9602.0,sim
+% First Class,1.0,1.0,sim
+pedidos Same Day,3407.0,3407.0,sim
+atrasados Same Day,1648.0,1648.0,sim
+% Same Day,0.48371,0.4837,sim
+pedidos Second Class,12256.0,12256.0,sim
+atrasados Second Class,9803.0,9803.0,sim
+% Second Class,0.799853,0.7999,sim
+pedidos Standard Class,37632.0,37632.0,sim
+atrasados Standard Class,14995.0,14995.0,sim
+% Standard Class,0.398464,0.3985,sim
+contradições real>prev vs status,0.0,0.0,sim
+excesso médio dias,1.61812,1.61812,sim
+venda total,35214429.653481,35214429.653478,sim
+venda em atrasados,20126395.265236,20126395.265239,sim
+cenário só First Class,0.420465,0.420465,sim

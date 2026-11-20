@@ -1,0 +1,31 @@
+﻿checagem,regra,linhas_afetadas,pct,decisao
+Total de linhas,Linhas no arquivo (cada linha = 1 item de pedido),180519,100.0,base de partida
+Item de pedido repetido,Order Item Id duplicado,0,0.0,manter 1
+Linha 100% repetida,todas as colunas iguais,0,0.0,remover se houver
+Data do pedido inválida,não converte para data,0,0.0,
+Data de envio inválida,não converte para data,0,0.0,
+Envio antes do pedido,envio < pedido,0,0.0,
+Dias reais negativos,Days for shipping (real) < 0,0,0.0,
+Prazo previsto zero ou negativo,Days for shipment (scheduled) <= 0,9737,5.39,
+Quantidade <= 0,Order Item Quantity <= 0,0,0.0,
+Preço <= 0,Order Item Product Price <= 0,0,0.0,
+Vendas negativas,Sales < 0,0,0.0,
+Lucro por pedido negativo,"Order Profit Per Order < 0 (prejuízo real, não erro)",33784,18.71,manter
+Atraso pelo status,Delivery Status = Late delivery,98977,54.83,indicador
+Atraso por dias (real > previsto),real > previsto,103400,57.28,indicador alternativo
+Status Late mas real <= previsto,contradição,0,0.0,investigar
+Status não-Late mas real > previsto,contradição,0,0.0,investigar
+Late_delivery_risk=1 sem status Late,flag x status,0,0.0,investigar
+Late_delivery_risk=0 com status Late,flag x status,0,0.0,investigar
+Entrega cancelada,Delivery Status = Shipping canceled,7754,4.3,excluir do cálculo de atraso
+Pedido cancelado/suspeito,Order Status CANCELED ou SUSPECTED_FRAUD,7754,4.3,verificar
+Nulos em Customer Lname,célula vazia,8,0.0,
+Nulos em Customer Zipcode,célula vazia,3,0.0,
+Nulos em Order Zipcode,célula vazia,155679,86.24,
+Nulos em Product Description,célula vazia,180519,100.0,
+Coluna pessoal: Customer Email,dado de cliente (privacidade),180519,100.0,NÃO levar para o portfólio
+Coluna pessoal: Customer Fname,dado de cliente (privacidade),180519,100.0,NÃO levar para o portfólio
+Coluna pessoal: Customer Lname,dado de cliente (privacidade),180511,100.0,NÃO levar para o portfólio
+Coluna pessoal: Customer Password,dado de cliente (privacidade),180519,100.0,NÃO levar para o portfólio
+Coluna pessoal: Customer Street,dado de cliente (privacidade),180519,100.0,NÃO levar para o portfólio
+Coluna pessoal: Customer Zipcode,dado de cliente (privacidade),180516,100.0,NÃO levar para o portfólio

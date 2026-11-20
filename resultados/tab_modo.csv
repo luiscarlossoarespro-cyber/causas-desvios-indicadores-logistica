@@ -1,0 +1,5 @@
+modo_envio,pedidos,atrasados,prazo_previsto,real_min,real_max,real_medio,pct_atraso
+First Class,9602,9602.0,1,2,2,2.0,1.0
+Same Day,3407,1648.0,0,0,1,0.48,0.4837
+Second Class,12256,9803.0,2,2,6,4.0,0.7999
+Standard Class,37632,14995.0,4,2,6,3.99,0.3985

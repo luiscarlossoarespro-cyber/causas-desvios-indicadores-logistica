@@ -1,0 +1,8 @@
+cenario,pedidos,atrasados,pct,ic_lo,ic_hi
+Definicao base (real > prometido),62897,36048,0.573127,0.569258,0.576989
+So atrasos de 2 dias ou mais,62897,14918,0.237181,0.233873,0.240522
+Sem First Class,53295,26446,0.496219,0.491975,0.500464
+Sem Same Day,59490,34400,0.578248,0.574275,0.582212
+Somente Standard Class,37632,14995,0.398464,0.393528,0.403421
+So meses completos (ate 09/2017),54854,31412,0.572647,0.568503,0.576782
+Incluindo cancelados como nao atrasados,65752,36048,0.548242,0.544435,0.552043

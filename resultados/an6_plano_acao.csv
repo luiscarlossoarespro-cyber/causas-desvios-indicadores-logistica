@@ -1,0 +1,6 @@
+acao,por_que,quem,onde_como,impacto_simulado,observacao
+Ajustar a promessa do First Class (1 -> 2 dias),Hoje 100% dos pedidos First Class chegam em 2 dias; prometer 1 garante o atraso,Comercial + Logística,Regra de prazo no checkout,"Atraso geral de 57,3% para 42,0%",Custo baixo: só a promessa muda
+Revisar a promessa do Same Day e do Second Class,Same Day atrasa 48% e Second Class 80%: o real passa da promessa,Logística,Revisão de prazos por modo,"Com os dois ajustes: 31,6%",Ou aumentar a capacidade
+Painel por modo (não só o geral),O indicador geral esconde que o problema está no prazo de cada modo,Analista de dados,Dashboard de indicadores,Visibilidade semanal,Custo baixo
+Monitorar com gráfico de controle,Nenhum mês saiu do esperado: o atraso é constante,Analista de dados,Gráfico p com limites,Alerta só se sair do limite,Evita reagir a ruído
+Validar a causa com dados reais da empresa,"A base não traz etapas (separação, transporte) nem transportadora",Gestor + TI,Novas colunas de rastreio,Permite achar a causa física,Depende da empresa

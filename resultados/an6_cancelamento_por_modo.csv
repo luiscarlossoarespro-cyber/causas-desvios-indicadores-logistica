@@ -1,0 +1,5 @@
+modo_envio,pedidos,cancelados,fraude,pct_cancelado,pct_fraude
+First Class,10079,477,253,0.0473,0.0251
+Same Day,3571,164,83,0.0459,0.0232
+Second Class,12778,522,266,0.0409,0.0208
+Standard Class,39324,1692,886,0.043,0.0225

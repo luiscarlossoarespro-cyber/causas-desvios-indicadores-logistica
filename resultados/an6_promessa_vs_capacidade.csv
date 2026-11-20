@@ -1,0 +1,5 @@
+modo,pedidos,prazo_prometido,real_min,real_p50,real_p90,real_max,pct_atraso,prazo_p/atraso<=10%,prazo_p/atraso<=5%,prazo_p/atraso<=0%
+First Class,9602,1,2,2.0,2.0,2,1.0,2,2,2
+Same Day,3407,0,0,0.0,1.0,1,0.4837,1,1,1
+Second Class,12256,2,2,4.0,6.0,6,0.7999,6,6,6
+Standard Class,37632,4,2,4.0,6.0,6,0.3985,6,6,6

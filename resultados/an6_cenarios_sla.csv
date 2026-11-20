@@ -1,0 +1,7 @@
+cenario,prazos,pct_atraso,reducao_pp,prazo_medio_prometido
+Hoje,"{'First Class': 1, 'Same Day': 0, 'Second Class': 2, 'Standard Class': 4}",0.5731,0.0,2.9356
+A) First Class: 1 -> 2 dias,"{'First Class': 2, 'Same Day': 0, 'Second Class': 2, 'Standard Class': 4}",0.4205,15.2662,3.0883
+B) A + Same Day: 0 -> 1 dia,"{'First Class': 2, 'Same Day': 1, 'Second Class': 2, 'Standard Class': 4}",0.3943,17.8864,3.1425
+C) B + Second Class: 2 -> 4 dias,"{'First Class': 2, 'Same Day': 1, 'Second Class': 4, 'Standard Class': 4}",0.3164,25.669,3.5322
+D) C + Standard: 4 -> 5 dias,"{'First Class': 2, 'Same Day': 1, 'Second Class': 4, 'Standard Class': 5}",0.1979,37.5264,4.1305
+E) Prazo = maximo real de cada modo,"{'First Class': 2, 'Same Day': 1, 'Second Class': 6, 'Standard Class': 6}",0.0,57.3127,5.1185
