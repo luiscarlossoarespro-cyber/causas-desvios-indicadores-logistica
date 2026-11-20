@@ -1,0 +1,6 @@
+raw/
+dados/
+resultados/base_*.csv
+resultados/amostra_300.csv
+*.xlsx
+__pycache__/
