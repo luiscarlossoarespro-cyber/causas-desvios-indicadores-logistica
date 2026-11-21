@@ -1,6 +1,7 @@
 # Causas dos desvios nos indicadores de logística
 
 [![Dashboard ao vivo](https://img.shields.io/badge/Dashboard-ao%20vivo-ff3d81)](https://luiscarlossoarespro-cyber.github.io/causas-desvios-indicadores-logistica/dashboard/)
+
 **Demonstração do dashboard em uso (1 min 47 s):**
 
 https://github.com/user-attachments/assets/d6ed445a-2fb6-4a26-b989-161deaa29bd7
